@@ -61,12 +61,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Finance</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="styleee.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="all" />
 </head>
 <body>
+
 	<header>
+
+
 		<div class="appname">Finance Managemnet System</div>
-		
 		<div class="loggedin">Welcome <?php echo $_SESSION['EmpId']; ?>! <a href="logout.php">Log Out</a></div>
+
+
 	</header>
 	<main>
 
@@ -97,6 +103,8 @@
 		</table>
 
 	</main>
+
+
 
 </body>
 </html>
